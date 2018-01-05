@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+		<title>ZAGA</title>
+		
+		<meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<link href="css/styles.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		<br/>
+		<div class="row">
+			<div class="col-lg-2">
+			
+			</div>
+			
+			<div class="col-lg-8">
+				<div class="row">
+					<span class="zagaHeader">
+						ZA Gaming Alliance
+					</span>
+				</div>
+				
+				<br/> <br/>
+				
+				<div class="row">
+					<div id="adCarousel" class="carousel slide" data-ride="carousel">
+					
+						<ol class="carousel-indicators">
+							<li data-target="#adCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#adCarousel" data-slide-to="1"></li>
+							<li data-target="#adCarousel" data-slide-to="2"></li>
+						</ol>
+						
+						<div class="carousel-inner" style="width=:100%; height: 500px !important;">
+							<div class="item active">
+								<img src="img/a329.jpg">
+							</div>
+	
+							<div class="item">
+								<img src="img/asus_logo.jpg">
+							</div>
+							
+							<div class="item">
+								<img src="img/MSI_logo_for_share2.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<br/> <br/>
+				
+				<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-6">
+						<ul class="zagaNav">
+							<li><a href="#" class="active">Home</a></li>
+							<li><a href="#">Market</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="talent.php">Local Talent</a></li>
+							<li><a href="#">Forum</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="testinterface.php">Test</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3"></div>
+				</div>
+			</div>
+			
+			<div class="col-lg-2">
+			
+			</div>
+		</div>
+	</body>
+</html>

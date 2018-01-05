@@ -1,0 +1,209 @@
+body
+{
+	background-color: #050505;
+	color: #fff;
+}
+
+.testbody
+{
+	background-image: url("../img/main.png");
+}
+
+@font-face 
+{
+	font-family: "New Rocker";
+	src: url("NewRocker-Regular.ttf");
+}
+
+@font-face 
+{
+	font-family: "Battleground";
+	src: url("Battleground.ttf");
+}
+
+@font-face 
+{
+	font-family: "Marske";
+	src: url("Marske.ttf");
+}
+
+.row
+{
+	text-align: center;
+}
+
+.zagaHeader
+{
+	font-family: 'New Rocker';
+	color: #00d0ff;
+	font-size:48pt;
+}
+
+.carousel
+{
+	max-height:500px;
+	max-width: 100%;
+	overflow:hidden;
+	background-color:white;
+	
+}
+
+.carousel-inner > .item > img
+{
+	margin: 0 auto;
+}
+
+.zagaNav, .zagaTalent
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.zagaNav > li, .zagaTalent li
+{
+	padding-bottom:20px;
+}
+
+.zagaNav > li a
+{
+	display: block;
+	color: #00d0ff;
+	font-size: 32pt;
+	text-decoration: none;
+	
+	font-family: 'New Rocker';
+	text-align: center;
+	border-radius:15%;
+	transition:0.3s;
+}
+
+.zagaNav li a:hover
+{
+	background-color: #44484c;
+	transition:0.3s;
+}
+
+.zagaNav li .active
+{
+	color: #f00;
+}
+
+
+
+
+
+
+.testNav
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	text-align: center;
+}
+
+.testNav > li
+{
+	padding-bottom:20px;
+}
+
+.testNav > li a
+{
+	display: block;
+	font-size: 24pt;
+	text-decoration: none;
+	
+	color: #000;
+	text-shadow:
+		-1px -1px 0 #fff,  
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		1px 1px 0 #fff;
+	
+	
+	
+	font-family: 'Marske';
+	text-align: center;
+	border-radius:15%;
+	transition:0.3s;
+}
+
+.testNav li a:hover
+{
+	background-color: rgba(68, 72, 76, 0.3);
+	color: #00d0ff;
+	text-shadow:none;
+	transition:0.3s;
+}
+
+.testNav li .active
+{
+	color: #f00;
+	text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+.zagaTalent > li a
+{
+	display: block;
+	border: 1px solid white;
+	font-size: 48pt;
+	text-decoration: none;
+	
+	font-family: 'Battleground';
+	border-radius: 15%;
+	background-color: rgba(0, 0, 255, 0.1);
+	transition:0.3s;
+}
+
+.zagaTalent li a:hover
+{
+	color: #fa0;
+	border: 1px solid white;
+	background-color: rgba(0, 187, 255, 0.1);
+	transition:0.3s;
+}
+
+.zagaTalent > li a img
+{
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
