@@ -26,10 +26,10 @@
 				
 				<div class="row">
 					<ul class="testNav">
-						<li><a href="index.php">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="#">Market</a></li>
 						<li><a href="#">Events</a></li>
-						<li><a href="talent.php">Local Talent</a></li>
+						<li><a href="talent.html">Local Talent</a></li>
 						<li><a href="#">Forum</a></li>
 						<li><a href="#">News</a></li>
 						<li><a href="#" class="active">Test</a></li>
